@@ -20,7 +20,7 @@ public class HechosCuriososActivity extends Activity {
 
     int x;
     TextView factLabel;
-    Button VerHechobutton ;
+    Button hechobutton ;
     String a[] = { "Las hormigas se estiran cuando se despiertan por la mañana.",
             "Las avestruces pueden correr más rápido que los caballos.",
             "Las medallas de oro de los juegos olímpicos están hechas de plata.",
@@ -33,8 +33,8 @@ public class HechosCuriososActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hechos_curiosos);
-        factLabel=(TextView) findViewById(R.id.HechoCuriosoTextView);
-        VerHechobutton=(Button) findViewById(R.id.VerHechobutton);
+        factLabel=(TextView) findViewById(R.id.verhechoTextView);
+        VerHechobutton=(Button) findViewById(R.id.hechobutton);
 
 
         VerHechobutton.setOnClickListener(new View.OnClickListener() {
